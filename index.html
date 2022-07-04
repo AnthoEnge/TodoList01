@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menuBar">
+        <div class="title">
+            <h1>TodoList</h1>
+        </div>
+        <div class="middleBar">
+            <ul>
+                <li id="all">All</li>
+                <li id="noCompleted">Active</li>
+                <li id="completed">Completed</li>
+                <li id="clearCompleted">Clear Completed</li>
+                <li id="clearAll">Clear All</li>
+            </ul>
+        </div>
+        <div class="bottomBar">
+            <h5>@iDeiyox</h5>
+        </div>
+    </div>
+
+    <div class="todoList">
+        <div class="top">
+            <div class="contentTop">
+                <h2>Add a Todo</h2>
+                <div class="add">
+                    <input type="title" id="tTodo" placeholder=" U todo"> <br>
+                    <input type="text" id="pTodo" placeholder=" Description"> <br>
+                    <label for="hours">Hours :</label>
+                    <input type="time" name="" id="hTodo">
+                </div>
+                <button id="add">Add</button>
+            </div>
+        </div>
+        <div class="list">
+            <div class="info">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
